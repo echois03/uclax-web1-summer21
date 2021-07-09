@@ -22,7 +22,7 @@ const Test = () => {
 
     return (
         <TestStyled className='Test'>
-            Test 
+            Emily Chois 
         </TestStyled>
     );
 }
