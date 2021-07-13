@@ -1,9 +1,13 @@
 /*using react library*/
 import React from 'react'
+import SunAndMoon from './SunAndMoon/SunAndMoon.jsx';
 
 const App = () => {
     return (
-        <div>React App</div>
+        <div>
+            <h1>React App</h1>
+            <SunAndMoon />
+        </div>
     )
 }
 
