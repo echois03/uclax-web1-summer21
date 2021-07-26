@@ -16,7 +16,13 @@ const Homework = () => {
                 number={2}
                 question='Explain the difference between HTML, CSS and JS.'
             >
-                Answer 2  
+                HTML is the basic, typically unformatted content of a webpage. CSS is the visual styling of a webpage, including colors, fonts, etc. JavaScript is the interactive behavior of elements on a webpage. <p>If we take a button as an example, the fact that a button exists on the webpage is done by HTML. What color and shape the button is, is done by CSS. What happens when you hover over the button, click it or hold it, is done by JavaScript.</p>
+            </Essay>
+            <Essay
+                number={3}
+                question='What are Single Page Apps (SPAs)? How do they differ from traditional multi-page Web Sites?'
+            >
+                Answer
             </Essay>
         </div>
     );
