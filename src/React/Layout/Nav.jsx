@@ -41,5 +41,4 @@ const NavStyled = styled.nav `
             font-weight:600;
         }
     }
-
 `;
