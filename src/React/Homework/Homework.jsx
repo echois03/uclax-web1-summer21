@@ -22,7 +22,19 @@ const Homework = () => {
                 number={3}
                 question='What are Single Page Apps (SPAs)? How do they differ from traditional multi-page Web Sites?'
             >
-                Answer
+                SPAs are browser webpages that load all content upon landing, but dynamically serve the user content from the initial load. The data is loaded via API and JS.
+            </Essay>
+            <Essay
+                number={4}
+                question='What is the difference between Web Designer, Front End Developer and Back End Developer?'
+            >
+                A Web Designer, generally, creates the visual look and feel of a webpage. A front-end developer focuses on programming the user interactive components of the webpage, client-side. They usually focus on languages such as HTML, CSS and JS. A back-end developer focuses on programming the server-side logic, data, and integration of the application. They typically work with PHP, Ruby, Python, Java and more.
+            </Essay>
+            <Essay
+                number={5}
+                question='Distinguish the difference between Site Relative, Document Relative, and Absolute Paths.'
+            >
+               Answer
             </Essay>
         </div>
     );
