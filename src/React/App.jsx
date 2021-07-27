@@ -2,6 +2,7 @@
 import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import styled from 'styled-components';
+import { MediaQueryProvider } from 'common/mediaQueries/useMediaQuery.js';
 
 
 import Header from './Layout/Header.jsx';
@@ -11,6 +12,7 @@ import Footer from './Layout/Footer.jsx';
 
 const App = () => {
     return (
+        <MediaQueryProvider>
         <BrowserRouter>
             <AppStyled>
                 <Header />
@@ -19,6 +21,7 @@ const App = () => {
                 <Footer />
             </AppStyled>
         </BrowserRouter>
+        </MediaQueryProvider>
     )
 }
 
