@@ -30,7 +30,7 @@ const Homework = () => {
                 number={4}
                 question='What is the difference between Web Designer, Front End Developer and Back End Developer?'
             >
-                A Web Designer, generally, creates the visual look and feel of a webpage. A front-end developer focuses on programming the user interactive components of the webpage, client-side. They usually focus on languages such as HTML, CSS and JS. A back-end developer focuses on programming the server-side logic, data, and integration of the application. They typically work with PHP, Ruby, Python, Java and more.
+                A Web Designer, generally, creates the visual look and feel of a webpage. A front-end developer focuses on programming the user interactive components of the webpage, client-side. They usually focus on languages such as HTML, CSS and JS. A back-end developer focuses on programming the server-side logic, data, security and integration of the application. They typically work with PHP, Ruby, Python, Java and more.
             </Essay>
             <Essay
                 number={5}
