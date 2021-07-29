@@ -45,7 +45,7 @@ const Homework = () => {
                 number={5}
                 question='Distinguish the difference between Site Relative, Document Relative, and Absolute Paths.'
             >
-               Answer
+                A link is absolute if the entire URL path can be used to locate a specific web page. It includes the protocol and subfolder or subfile, if applicable. A link is relative if the link only specifies the name of the file or folder within the same document. Document-relative links are relative links from one page to another, within the same website. Site-relative links are similar, except that the link is relative to the website's root folder, containing the home page and all other folders of the site.
             </Essay>
         </div>
     );
