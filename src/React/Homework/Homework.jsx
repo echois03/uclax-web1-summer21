@@ -47,6 +47,79 @@ const Homework = () => {
             >
                 A link is absolute if the entire URL path can be used to locate a specific web page. It includes the protocol and subfolder or subfile, if applicable. A link is relative if the link only specifies the name of the file or folder within the same document. Document-relative links are relative links from one page to another, within the same website. Site-relative links are similar, except that the link is relative to the website's root folder, containing the home page and all other folders of the site.
             </Essay>
+            <Essay
+                number={6}
+                question='What is the difference between JPG, GIF, PNG and SVG images?'
+            >
+                <p>JPG, PNG and GIF are all rasterized images, meaning it is composed of colored pixels in a grid. JPGs use a "lossy" compression algorithm, meaning the quality of the image may be lost. GIFs use a "lessless" compression algorithm, supports transparency and animation, but have a limited color palette. PNGs are also "lossless" but support a greater range of colors (24-bit) and the RGB palette.</p>
+                SVG images are an example of vectorized images, which are composed of points, along the X and Y axes, and the lines that connect them. Using algorithms, these points and lines can be scaled up and down based on the algorithm. 
+            </Essay>
+            <Essay
+                number={7}
+                question='Define the following roles: Project Manager, Business Analyst, Scrum Master, UX designer, Web Developer/Engineer, Quality Assurance Tester, and DevOps.'
+            >
+                    <p><u>Project Manager:</u> Responsible for moving the project along all phases, from planning to execution, start to finish.<br></br>
+                    <u>Business Analyst:</u> Evaluates prior and current business data to improve decision-making processes, products and services within the organization.<br></br>
+                    <u>Scrum Master:</u> In charge of implementing the Scrum framework for a project or organization. Scrum is an agile mindset with the following components: a Product Owner odering the work into the backlog, a Scrum team selecting items into Increments within development Sprints, and a Scrum team and stakeholders that evaluate the results and adapt the future Sprint(s) as needed.<br></br>
+                    <u>UX Designer:</u> Ideates and creates products that prioritize an end-user's experiences and needs, including aspects such as branding, visual design, usability and functionality.<br></br>
+                    <u>Web Developer/Engineer:</u> A programmer of the World Wide Web, creating applications and websites with programming languages such as HTML, CSS, JS, etc., techniques and other tools to support the apps/sites. <br></br>
+                    <u>Quality Assurance Tester:</u> Ensures that the product is at its best version and state, consistent with the needs of the project and the standardized protocols/prodcedural requirements of the organization.<br></br>
+                    <u>DevOps:</u> The combination of development and IT operation philosophies, practices and tools that increase an organization's efficiency and efficacy in building, testing and deploy applications/services.</p>
+            </Essay>
+            <Essay
+                number={8}
+                question='What is considered the right size for an image or video asset?'
+            >
+                Answer
+            </Essay>
+            <Essay
+                number={9}
+                question='What it means for a company to be Agile. What is the purpose of using Agile, and its Pros and Cons.'
+            >
+                Answer
+            </Essay>
+            <Essay
+                number={10}
+                question='What are testing environments? What is the difference between Local, Dev, QA and Production?'
+            >
+                Answer
+            </Essay>
+            <Essay
+                number={11}
+                question='Function vs Form: When are web images considered part of the content (HTML) as opposed to part of the appearance (CSS)?'
+            >
+                Answer
+            </Essay>
+            <Essay
+                number={12}
+                question='What is the difference between IDs, Classes and Tags? How does Specificity play a role in the selection of HTML elements (both in CSS and JS)'
+            >
+                Answer
+            </Essay>
+            <Essay
+                number={13}
+                question='Final Project: Who is the client? (e.g. Me, a friend of mine starting a business, Coffee Bean, Made Up Widget Company) What is its purpose? (e.g. an online brochure for a coffee shop, to promote my portfolio work) Why did you choose this subject?'
+            >
+                Answer
+            </Essay>
+            <Essay
+                number={14}
+                question='What is a CSS Preprocessor? What are some examples? In React, what are styled components? How do Styled Components violate separation of concerns?'
+            >
+                Answer
+            </Essay>
+            <Essay
+                number={15}
+                question='What is the difference between Web Hosts, Domains, and FTP?'
+            >
+                Answer
+            </Essay>
+            <Essay
+                number={16}
+                question='What is a Package Manager (e.g. NPM, Composer)? How does it play a role in software development?'
+            >
+                Answer
+            </Essay>
         </div>
     );
 }
