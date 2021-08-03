@@ -39,9 +39,4 @@ const MainStyled = styled.main `
     background-color:#349e9e;
     color:white;
     padding: 10px;
-
-    * div {
-        border: solid 2px black;
-        padding: 20px;
-    }
 `;

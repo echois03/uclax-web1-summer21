@@ -1,13 +1,22 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const Tabs = () => {
+import Tab from './Tab.jsx'
+
+const Tabs = ({tabbedData, chosenTab, chosenTabUpdate}) => {
 
     return (
         <TabsStyled className='Tabs'>
-            <div className="inset">
-                Tabs
-            </div>
+            {
+                tabbedData.map((tab, idx) => {
+                    return <Tab
+                        key={idx}
+                        tab={tab}
+                        chosenTab={chosenTab}
+                        chosenTabUpdate={chosenTabUpdate}
+                    />
+                })
+        }
         </TabsStyled>
     );
 }
@@ -15,5 +24,5 @@ const Tabs = () => {
 export default Tabs;
 
 const TabsStyled = styled.div`
-    
+    display:flex;
 `;
