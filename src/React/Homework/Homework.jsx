@@ -70,7 +70,7 @@ const Homework = () => {
                 number={8}
                 question='What is considered the right size for an image or video asset?'
             >
-                Answer
+                We want to use the right quality of asset for viewing based on viewport size and function of the asset. We don't want to use files larger than necessary for storage purposes.
             </Essay>
             <Essay
                 number={9}
