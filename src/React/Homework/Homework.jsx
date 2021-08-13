@@ -76,7 +76,7 @@ const Homework = () => {
                 number={9}
                 question='What it means for a company to be Agile. What is the purpose of using Agile, and its Pros and Cons.'
             >
-                Answer
+                Agile is a method of project completion focused on delivering small increments of the product in a continuous manner. It is typically meant to increase the speed and accuracy of product delivery for project management and software development.
             </Essay>
             <Essay
                 number={10}
