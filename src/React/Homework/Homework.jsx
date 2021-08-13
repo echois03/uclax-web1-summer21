@@ -77,12 +77,16 @@ const Homework = () => {
                 question='What it means for a company to be Agile. What is the purpose of using Agile, and its Pros and Cons.'
             >
                 Agile is a method of project completion focused on delivering small increments of the product in a continuous manner. It is typically meant to increase the speed and accuracy of product delivery for project management and software development.
+
+                It allows for the end-users to start using the product as soon as possible. However, the speed and lack of thorough testing/research means that users will often experience frequent changes and updates to the product as the testing is conducted. 
+
+                To maximize efficiency, the entire team must be consistent with their practices and timeline or else 
             </Essay>
             <Essay
                 number={10}
                 question='What are testing environments? What is the difference between Local, Dev, QA and Production?'
             >
-                Answer
+                Developing products requires quality assurance and control. In order to test product for quality, various environments are created outside of what the public sees, often referred to as "production" in software development. Often, a developer has a local machine that they are coding and testing their code on. Once the developer pushes this code to the Dev environment, several developers see and test the code in the context of its use with other pieces of the application. QA environments are meant to be finalized versions of code, not frequently changed. It is often used to ensure specific bugs are fixed. Production environments are where the end-user and client sees and uses the released version of the application.
             </Essay>
             <Essay
                 number={11}
