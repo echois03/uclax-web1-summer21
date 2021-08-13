@@ -1,12 +1,12 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const Item = () => {
+const Item = ({service}) => {
 
     return (
         <ItemStyled className='Item'>
-            <img src="/img/Services/service-1.jpg" alt=""/>
-            <h3>Title</h3> 
+            <img src={service.image} alt={service.title}/>
+            <h3>{service.title}</h3> 
         </ItemStyled>
     );
 }
