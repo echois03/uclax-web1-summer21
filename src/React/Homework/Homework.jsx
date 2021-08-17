@@ -92,7 +92,7 @@ const Homework = () => {
                 number={11}
                 question='Function vs Form: When are web images considered part of the content (HTML) as opposed to part of the appearance (CSS)?'
             >
-                Answer
+                The intention of HTML is to deliver informative content. If the image is a logo that provides branding, or an icon that delivers user feedback, these are all critical situations that warrant an image's presence in the HTML. If the image is purely decorative and only meant to enhance the user experience of animation, visual imagery, etc., then these images perform better in CSS, such as background images.
             </Essay>
             <Essay
                 number={12}
