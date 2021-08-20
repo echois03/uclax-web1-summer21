@@ -7,7 +7,7 @@ const FormControl = ({inputName, handleUpdate}) => {
 
     return (
         <FormControlStyled className='FormControl'>
-            <Input inputName={inputName} handleUpdate={handleUpdate}/>
+            <Input />
         </FormControlStyled>
     );
 }

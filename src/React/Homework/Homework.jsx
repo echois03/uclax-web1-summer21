@@ -98,7 +98,9 @@ const Homework = () => {
                 number={12}
                 question='What is the difference between IDs, Classes and Tags? How does Specificity play a role in the selection of HTML elements (both in CSS and JS)'
             >
-                Answer
+                Tags are the most basic keywords in HTML, indicating the start and end of individual elements and how the webpage should display the content within the tag. HTML files must have the essential tags for the file to be valid and correctly displayed. IDs and classes are used within the start of a tag, acting like an additional attribute of the tag. IDs are unique to an element and can only appear once per page. They are used to identify an element. Classes can be applied to multiple components and pages. They are used to style elements.
+                <br></br>
+                Specificity places multiple and possibly overlapping styling IDs and classes into a scored hierarchy to be applied to each element. The declaration with the highest specificity will be applied to the element. 
             </Essay>
             <Essay
                 number={13}
