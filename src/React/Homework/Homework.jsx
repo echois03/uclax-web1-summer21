@@ -106,14 +106,16 @@ const Homework = () => {
                 number={13}
                 question='What is a CSS Preprocessor? What are some examples? In React, what are styled components? How do Styled Components violate separation of concerns?'
             >
-                Allows programming containing logic such as variables, netsing, inheritance, etc. that is then compiled into a regular CSS, which is then reference by the main HTML doc client side. Some examples are Sass, LESS and Stylus. <br></br>
+                Allows programming containing logic such as variables, nesting, inheritance, etc. that is then compiled into a regular CSS, which is then reference by the main HTML doc client side. Some examples are Sass, LESS and Stylus. <br></br>
                 Separation of concerns is the idea that developers program like with like, language with language, for the sake of initial programming. In React, styled components allow CSS to be included in JS components, allowing scoped styling, which fundamentally mixes languages together. The benefit of this arises when one single component or feature needs an update spanning all 3 languages. This now introduces multiple files for review rather than React's proposed single file/component review.
             </Essay>
             <Essay
                 number={14}
                 question='Final Project: Who is the client? (e.g. Me, a friend of mine starting a business, Coffee Bean, Made Up Widget Company) What is its purpose? (e.g. an online brochure for a coffee shop, to promote my portfolio work) Why did you choose this subject?'
             >
-                Answer
+                <li>Client: Zeal Interior & Design, an imaginary interior design company.</li>
+                <li>Purpose: Online presence and marketing of the services, past works and contact of the company.</li>
+                <li>Reason: I have a lot of inspiration pictures for our home remodel, which made me think of the designers behind it all.</li>
             </Essay>
             <Essay
                 number={15}

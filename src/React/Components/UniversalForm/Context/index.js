@@ -13,6 +13,12 @@ export const reducer = (state, action) => {
                 ...action.newState
             };
         }
+        
+        case actionTypes.UF_SUBMIT_FORM: {
+            return {
+                ...action.newState
+            };
+        }
 
         default: {
             return {...state}
