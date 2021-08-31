@@ -121,13 +121,13 @@ const Homework = () => {
                 number={15}
                 question='What is the difference between Web Hosts, Domains, and FTP?'
             >
-                Answer
+                A domain is the address of the website that users enter in the browser URL field, helping the DNS identify the location of the website from the website host. Websites are composed of several files, which are stored and served by a web host. Typically, files may be stored elsewhere before uploaded to the web host. File Transfer Protocol (FTP) is a secure way to transfer files to the website's FTP server.
             </Essay>
             <Essay
                 number={16}
                 question='What is a Package Manager (e.g. NPM, Composer)? How does it play a role in software development?'
             >
-                Answer
+                Software is often broken up into reusable pieces that can be downloaded from a repository to a local dev environment. A package manager is a software that manages the dependencies that a project needs to function correctly, including installing, updating and configuring a computer's OS. Often, packages specify dependencies, a package name, author, tags, versioning, etc. that can be exported back to the public.
             </Essay>
         </div>
     );
