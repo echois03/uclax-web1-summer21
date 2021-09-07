@@ -36,5 +36,8 @@ const NavigationStyled = styled.div`
       position:fixed;
       top: 20px;
       right: 20px;
+      color: #8c9dad;
+      width: .7em;
   }  
+
 `;

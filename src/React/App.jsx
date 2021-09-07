@@ -28,6 +28,14 @@ const App = () => {
 export default App;
 
 const AppStyled = styled.div `
+    h1, h2, h3, h4, h5, h6 {
+        font-family: source-sans-pro;
+    }
+
+    html, body, p {
+        font-family: 'Times New Roman', Times, serif;
+    }
+
     .inset {
         border: solid 1px red;
         max-width:1600px;

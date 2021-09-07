@@ -6,7 +6,7 @@ const Content = ({chosenTab}) => {
     return (
         <ContentStyled className='Content'>
             <div className="image">
-                <img src="/img/MissionVision/about.jpg" alt="{chosenTab.image}"/>
+                <img src={ chosenTab.image } alt="{chosenTab.image}"/>
             </div> 
             <div className="info">
                 <h3>{ chosenTab.title }</h3>
@@ -21,11 +21,10 @@ export default Content;
 const ContentStyled = styled.div`
     display:flex;
     padding: 20px;
-    background-color: teal;
     min-height:200px;
 
     .image {
-        flex: 1;
+        flex: 2;
         img {
                 max-width: 100%
         }

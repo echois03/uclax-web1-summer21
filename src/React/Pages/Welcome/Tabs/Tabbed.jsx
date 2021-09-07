@@ -16,7 +16,7 @@ const Tabbed = () => {
 
     return (
         <TabbedStyled className='Tabbed'>
-            <div className="inset">
+            <div>
                 <Tabs 
                     tabbedData={tabbedData}
                     chosenTab={chosenTab}
@@ -33,5 +33,5 @@ const Tabbed = () => {
 export default Tabbed;
 
 const TabbedStyled = styled.div`
-    
+        gap: 10px;
 `;

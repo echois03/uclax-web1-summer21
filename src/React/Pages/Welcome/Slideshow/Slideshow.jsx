@@ -17,6 +17,7 @@ const Slideshow = () => {
                 autoPlay={ true }
                 infiniteLoop={ true }
                 showArrows={ true }
+                interval='4000'
             >
                 {
                     slidesData.map((slide, idx) => {
@@ -35,6 +36,6 @@ const SlideshowStyled = styled.div`
     margin-bottom: 50px;
 
     .carousel .slide .legend {
-        background-color: maroon;
+        display:none;
     }
 `;

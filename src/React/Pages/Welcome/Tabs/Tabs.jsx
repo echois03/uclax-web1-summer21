@@ -25,4 +25,6 @@ export default Tabs;
 
 const TabsStyled = styled.div`
     display:flex;
+    gap: 12px;
+    justify-content: center;
 `;
