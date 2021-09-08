@@ -33,7 +33,7 @@ export default Navigation;
 
 const NavigationStyled = styled.div`
   .Hamburger {
-      position:fixed;
+      position: absolute;
       top: 20px;
       right: 20px;
       color: #8c9dad;

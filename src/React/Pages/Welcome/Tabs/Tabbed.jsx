@@ -16,6 +16,7 @@ const Tabbed = () => {
 
     return (
         <TabbedStyled className='Tabbed'>
+            <h1>Meet Our Team</h1>
             <div>
                 <Tabs 
                     tabbedData={tabbedData}
@@ -33,5 +34,10 @@ const Tabbed = () => {
 export default Tabbed;
 
 const TabbedStyled = styled.div`
-    
+    margin: 3rem 0;
+
+    h1 {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
 `;

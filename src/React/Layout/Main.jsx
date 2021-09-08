@@ -36,5 +36,5 @@ export default Main;
 
 const MainStyled = styled.main `
     background-color: white;
-    padding: 10px;
+    padding: 10px 0;
 `;

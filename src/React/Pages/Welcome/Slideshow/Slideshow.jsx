@@ -36,6 +36,8 @@ const SlideshowStyled = styled.div`
     margin-bottom: 50px;
 
     .carousel .slide .legend {
-        display:none;
+        width:30%;
+        margin: auto;
+        position: relative;
     }
 `;

@@ -28,7 +28,7 @@ export default Input;
 
 const InputStyled = styled.input`
     width:100%;
-    font-size: 20px;
+    font-size: 1rem;
     padding:10px;
     border: solid 2px gray;
     outline: none;

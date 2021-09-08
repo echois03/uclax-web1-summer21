@@ -11,16 +11,7 @@ const Contact = () => {
 
     return (
         <ContactStyled className='Contact'>
-            <h1>Contact</h1>
-            <div className="row">
-                <div className="col">
-                <Info />
-                </div>    
-                <div className="col">        
-                <ContactForm />
-                </div>
-             </div>   
-            <Map />
+            <ContactForm />
         </ContactStyled>
     );
 }
@@ -28,7 +19,10 @@ const Contact = () => {
 export default Contact;
 
 const ContactStyled = styled.div`
-    
+    width: 80%;
+    max-width:500px;
+    margin: 5rem auto 3rem auto;
+
     @media ${mediaQueries.mdUp} {
         .row {
         display: flex;

@@ -28,14 +28,15 @@ const SubmitButton = () => {
 export default SubmitButton;
 
 const SubmitButtonStyled = styled.button`
-    background-color: teal;
+    background-color: #cba54d;
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
     border: none;
 
     &:hover, &:focus {
-        background-color: #013f3f;
+        background-color:#997728;
+        cursor: pointer;
     }
     
 `;
