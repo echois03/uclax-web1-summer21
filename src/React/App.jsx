@@ -28,12 +28,8 @@ const App = () => {
 export default App;
 
 const AppStyled = styled.div `
-    h1, h2, h3, h4, h5, h6 {
+    h1, h2, h3, h4, h5, h6, button, input, optgroup, select, textarea, html, body, p  {
         font-family: source-sans-pro;
-    }
-
-    html, body, p {
-        font-family: 'Times New Roman', Times, serif;
     }
 
     .inset {

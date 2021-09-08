@@ -10,11 +10,10 @@ const Container = () => {
 
     const { categories, services } = servicesData;
 
-    const [curCat, curCatUpdate] = useState(categories[1]);
+    const [curCat, curCatUpdate] = useState(categories[0]);
 
     return (
         <ContainerStyled className='Container'>
-            <p>{curCat}</p>
             <Categories 
                 categories={categories}
                 curCat={curCat}

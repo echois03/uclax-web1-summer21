@@ -8,7 +8,7 @@ const Footer = () => {
 export default Footer;
 
 const FooterStyled = styled.footer `
-    padding: 5rem 0 1rem 0;
+    padding: 1rem 0;
     text-align: center;
     font-size: .6rem;
 `;

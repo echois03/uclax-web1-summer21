@@ -13,7 +13,7 @@ import Homework from '../Homework/Homework.jsx'
 const Main = () => {
     return <MainStyled>
         <Switch>
-            <Route path='/services'>
+            <Route path='/projects'>
                 <Services />
             </Route>
             <Route path='/contact'>

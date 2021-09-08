@@ -22,7 +22,7 @@ const Tab = ({tab, chosenTab, chosenTabUpdate}) => {
 export default Tab;
 
 const TabStyled = styled.div`
-    padding: 20px;
+    padding: 15px;
     background-color: white;
     width: 150px;
     text-align: center;

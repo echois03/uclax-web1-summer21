@@ -25,5 +25,5 @@ export default Categories;
 
 const CategoriesStyled = styled.div`
     text-align:center;
-    margin-bottom: 15px;
+    margin: 2rem 0;
 `;

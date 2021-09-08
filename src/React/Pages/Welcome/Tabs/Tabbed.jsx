@@ -33,5 +33,5 @@ const Tabbed = () => {
 export default Tabbed;
 
 const TabbedStyled = styled.div`
-        gap: 10px;
+    
 `;

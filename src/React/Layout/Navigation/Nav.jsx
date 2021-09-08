@@ -7,7 +7,7 @@ import { mediaQueries } from 'common/mediaQueries/mediaQueries.js';
 const Nav = () => {
     return <NavStyled>
         <NavLink to="/" exact>Welcome</NavLink>
-        <NavLink to="/services">Services</NavLink>
+        <NavLink to="/projects">Projects</NavLink>
         <NavLink to="/contact">Contact</NavLink>
         <NavLink to="/login">Login</NavLink>
     </NavStyled>

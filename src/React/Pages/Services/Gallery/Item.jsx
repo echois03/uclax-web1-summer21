@@ -13,9 +13,12 @@ const Item = ({service}) => {
         return (
             <div>
                 <img src={service.image} alt={service.title}/>
-                <h3>{service.title}</h3>
-                <p>{service.cost}</p> 
-                <p>{service.description}</p> 
+                <div className="lightboxInfo">
+                    <h3>{service.title}</h3>
+                    <p>{service.location}</p> 
+                    <p>{service.description}</p>
+                </div>
+ 
             </div>
         );
     }
@@ -25,7 +28,7 @@ const Item = ({service}) => {
         <ItemStyled className='Item'>
             <Lightbox LightboxContent={LightboxContent} width={width}>   
                 <img src={service.image} alt={service.title}/>
-                <h3>{service.title}</h3>
+                <h4>{service.title}</h4>
             </Lightbox>    
         </ItemStyled>
     );
@@ -37,14 +40,16 @@ const ItemStyled = styled.div`
     img {
         width: 100%;
         display: block;
-
     }
 
-    .h3 {
-        background-color:teal;
-        color:white;
-        padding: 5px;
-        font-size:18px;
-        margin: 0px;
+    h4 {
+        background-color: rgba(245,245,245,0.8);
+        padding: 10px;
+        text-align: center;
+        margin-top: 0px;
+    }
+
+    .lightboxInfo {
+        padding: 0.5rem 2rem;
     }
 `;

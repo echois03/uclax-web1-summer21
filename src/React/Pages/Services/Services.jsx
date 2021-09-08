@@ -6,8 +6,7 @@ import Container from './Container.jsx';
 const Service = () => {
 
     return (
-        <ServiceStyled className='Service'>
-            <h1>Services</h1> 
+        <ServiceStyled className='Projects'>
             <Container />
         </ServiceStyled>
     );
