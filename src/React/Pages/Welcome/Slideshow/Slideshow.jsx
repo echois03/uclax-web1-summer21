@@ -39,5 +39,6 @@ const SlideshowStyled = styled.div`
         width:30%;
         margin: auto;
         position: relative;
+        left: 0;
     }
 `;

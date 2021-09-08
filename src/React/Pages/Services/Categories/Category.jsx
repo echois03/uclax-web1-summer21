@@ -23,7 +23,7 @@ const CategoryStyled = styled.button`
     background-color: white;
     width: 150px;
     text-align: center;
-    margin-right: 16px;
+    margin: 0 16px 16px 0;
     border-radius: 50px;
     border: solid 1px #cba54d;
     cursor: pointer;

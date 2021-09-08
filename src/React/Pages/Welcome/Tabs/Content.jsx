@@ -1,5 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
+import { mediaQueries } from 'common/mediaQueries/mediaQueries.js';
+
 
 const Content = ({chosenTab}) => {
 
@@ -20,7 +22,7 @@ export default Content;
 
 const ContentStyled = styled.div`
     display:flex;
-    padding: 20px;
+    flex-direction:column;
     min-height:200px;
     width:80%;
     margin: 2rem auto;
@@ -34,7 +36,14 @@ const ContentStyled = styled.div`
 
     .info {
         flex: 4;
-        padding: 0 20px;
+    }
+
+    @media ${mediaQueries.mdUp}{
+        flex-direction:row;
+
+        .info {
+            padding: 0 20px;
+        }
     }
     
 `;

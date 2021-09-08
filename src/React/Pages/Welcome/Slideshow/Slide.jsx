@@ -6,8 +6,6 @@ const Slide = ({slide}) => {
     return (
         <SlideStyled className='Slide'>
             <img src={ slide.image } alt={ slide.title} />
-            <p className="legend">{ slide.title }</p>    
-
         </SlideStyled>
     );
 }

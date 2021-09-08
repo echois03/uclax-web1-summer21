@@ -27,4 +27,6 @@ const TabsStyled = styled.div`
     display:flex;
     gap: 12px;
     justify-content: center;
+    width: 88%;
+    margin: auto;
 `;
